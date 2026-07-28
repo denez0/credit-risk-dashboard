@@ -2,6 +2,8 @@
 
 An interactive dashboard for credit risk classification with EDA, cross-validation, and model comparison.
 
+Try it out yourself [here](https://credit-risk-dashboard0.streamlit.app/).
+
 ## 🚀 Features
 
 - **Exploratory Data Analysis** – Target distribution, feature distributions, correlations
