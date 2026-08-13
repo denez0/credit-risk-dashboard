@@ -4,6 +4,19 @@ Author: Denys Yakovliev
 Purpose: End-to-end credit risk classification with EDA, CV, and visualizations
 """
 
+""" TUTORIAL
+# Streamlit is that simple — 1 hour gets you 80% of it
+import streamlit as st
+import pandas as pd
+# streamlit run streamlit_app.py
+st.title("My ML Dashboard")
+uploaded = st.file_uploader("Upload CSV")
+if uploaded:
+    df = pd.read_csv(uploaded)
+    st.dataframe(df)
+    st.bar_chart(df.select_dtypes(include='number'))
+"""
+
 import streamlit as st
 import numpy as np
 import pandas as pd
